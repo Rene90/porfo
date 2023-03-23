@@ -1,6 +1,6 @@
 function Services(){
     return(
-        <div>
+        <div id="services" className="section">
             Services
         </div>
     )

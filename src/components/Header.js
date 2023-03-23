@@ -1,8 +1,19 @@
+import Logo from '../assets/logo.svg'
 function Header(){
     return(
-        <div>
-            Header
-        </div>
+        <header className='py-8'>
+            <div className='container mx-auto'>
+                <div className='flex justify-between items-center'>
+                    <a href='#'>
+                        <img src={Logo} alt="imagen"></img>
+
+                    </a>
+                    <button className='btn btn-sm'>Trabajemos juntos!</button>
+
+                </div>
+            </div>
+
+        </header>
     )
 
 }

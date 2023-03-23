@@ -1,6 +1,6 @@
 function Work(){
     return(
-        <div>
+        <div id="work" className="section">
             Work
         </div>
     )
