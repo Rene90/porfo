@@ -1,4 +1,4 @@
-import Logo from '../assets/logo.svg'
+import Logo from '../assets/rene.png'
 function Header(){
     return(
         <header className='py-8'>
